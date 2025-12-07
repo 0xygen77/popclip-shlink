@@ -1,5 +1,5 @@
 ## Shlink PopClip Extension
-An unofficial PopClip extension to shorten URLs using your self-hosted Shlink instance.
+An unofficial PopClip extension to shorten URLs using your self-hosted [Shlink](https://shlink.io) instance.
 
 ## Features
 - Shortens the selected URL using Shlink REST API v3.
