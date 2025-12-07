@@ -1,0 +1,17 @@
+name: Shlink
+identifier: dev.0xygen77.popclip.extension.shlink
+description: Shorten URLs using your own Shlink server.
+icon: shlink.svg
+entitlements: [network]
+after: copy-result
+options:
+  - identifier: server
+    label: Server URL
+    type: string
+    description: Your Shlink instance URL (e.g. [https://s.example.com](https://s.example.com))
+  - identifier: apikey
+    label: API Key
+    type: string
+    description: Your Shlink API Key
+module: extension.js
+requirements: [url]
